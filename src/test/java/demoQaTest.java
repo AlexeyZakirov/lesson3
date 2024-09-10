@@ -62,7 +62,5 @@ public class demoQaTest {
         $(".table tbody tr:nth-child(8) td:nth-child(2)").shouldHave(text("cat.png"));
         $(".table tbody tr:nth-child(9) td:nth-child(2)").shouldHave(text("3204 Canyon Lake Drive"));
         $(".table tbody tr:nth-child(10) td:nth-child(2)").shouldHave(text("NCR Delhi"));
-
-        sleep(5000);
     }
 }
